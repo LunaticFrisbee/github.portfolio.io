@@ -12,6 +12,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    cursor:pointer;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -68,6 +72,7 @@ nav ul li a:hover{
 	box-shadow: 5px 10px 30px rgba(199, 206, 206, 0.3);
 	transition: all ease 0.4s;
 }
+ /* INTRO */
 
 .intro{
     width:90%;
@@ -81,7 +86,7 @@ nav ul li a:hover{
     
 }
 
-.intro-content{
+.intro-image{
     width: 500px;
     height: 500px;
 }
@@ -94,12 +99,14 @@ nav ul li a:hover{
     color:rgba(8, 166, 166, 0.938)
 }
 
-.intro-content img{
+.intro-image img{
     z-index: -1;
     width:100%;
     height: 100%;
     object-fit: contain;  
 }
+
+/* INTERESTS  */
 
 #interests{
     width: 100%;
@@ -111,6 +118,81 @@ nav ul li a:hover{
     flex-direction: column;
     width:500px;
 }
+
+
 .interests-container{
     width: 100%;
+}
+
+/* SKILLS */
+
+#skills{
+    width:100%;
+    padding: 50px;
+}
+
+.skills-heading{
+    text-align: center;
+}
+.skills-heading span{
+    text-align: center;
+    font-size: 30px;
+}
+.skills-heading h1{
+    text-align: center;
+    color:rgba(8, 166, 166, 0.938);
+}
+
+/* PROJECTS */
+
+#projects{
+    width: 100%;
+    padding: 50px;
+}
+/* CONTACTS */
+
+#contact{  
+    width:100%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-heading{
+    text-align: center;
+}
+
+.contact-heading span{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-heading h1{
+    text-align: center;
+    color:rgba(8, 166, 166, 0.938);
+    /*font-weight:bold; 
+    font-size: 40px; */
+}
+.contact-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.contact-content{
+    width: 350px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;   
+}
+
+.contact-content img{
+    width:90px;
+    height:90px;
+    object-fit: contain;
 }
