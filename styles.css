@@ -132,7 +132,7 @@ nav ul li a:hover{
 }
 
 .skills-heading{
-    text-align: center;
+     text-align: center; 
 }
 .skills-heading span{
     text-align: center;
@@ -143,6 +143,43 @@ nav ul li a:hover{
     color:rgba(8, 166, 166, 0.938);
 }
 
+.skills-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills-content{
+    display: flex;
+    margin-right: 40px;    
+    margin-left: 40px;
+    justify-content: center;
+}
+
+.skills-content img{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 180px;
+    width: 180px;
+}
+
+.skills-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:30px;
+    padding-left: 20px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.skills-text strong {
+    font-weight: 600;
+    font-size: 25px;
+}
 /* PROJECTS */
 
 #projects{
